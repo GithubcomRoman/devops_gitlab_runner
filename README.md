@@ -1,1 +1,4 @@
-# devops_gitlab_runner
+# GitLab runner для Gitlab
+
+Подрезал скрипты с бесплатной части курса Slurm (https://edu.slurm.io/). 
+Представлено для учебных целей, чтобы понять как создаётся и запускается runner.
