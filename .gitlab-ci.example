@@ -1,0 +1,17 @@
+stages:
+    - test
+
+default:
+    tags:
+        - runner
+        - docker
+        - local
+
+Test job for test runner:
+    stage: test
+    script:
+        - ls -la
+        - echo "Start test --->"
+        - echo "wait 20s ..."
+        - sleep 20
+        - echo "Done! All works! Congratulations!"
